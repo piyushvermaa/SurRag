@@ -8,10 +8,8 @@ const TypeNormalSize48StateDe = ({
   typeNormalSize48StateDeWidth,
   typeNormalSize48StateDeGap,
   typeNormalSize48StateDePosition,
-  typeNormalSize48StateDeHeight,
   typeNormalSize48StateDeTop,
   typeNormalSize48StateDeRight,
-  typeNormalSize48StateDeBottom,
   typeNormalSize48StateDeLeft,
   typeNormalSize48StateDeBackgroundColor,
 }) => {
@@ -20,10 +18,8 @@ const TypeNormalSize48StateDe = ({
       width: typeNormalSize48StateDeWidth,
       gap: typeNormalSize48StateDeGap,
       position: typeNormalSize48StateDePosition,
-      height: typeNormalSize48StateDeHeight,
       top: typeNormalSize48StateDeTop,
       right: typeNormalSize48StateDeRight,
-      bottom: typeNormalSize48StateDeBottom,
       left: typeNormalSize48StateDeLeft,
       backgroundColor: typeNormalSize48StateDeBackgroundColor,
     };
@@ -31,10 +27,8 @@ const TypeNormalSize48StateDe = ({
     typeNormalSize48StateDeWidth,
     typeNormalSize48StateDeGap,
     typeNormalSize48StateDePosition,
-    typeNormalSize48StateDeHeight,
     typeNormalSize48StateDeTop,
     typeNormalSize48StateDeRight,
-    typeNormalSize48StateDeBottom,
     typeNormalSize48StateDeLeft,
     typeNormalSize48StateDeBackgroundColor,
   ]);
@@ -65,10 +59,8 @@ TypeNormalSize48StateDe.propTypes = {
   typeNormalSize48StateDeWidth: PropTypes.any,
   typeNormalSize48StateDeGap: PropTypes.any,
   typeNormalSize48StateDePosition: PropTypes.any,
-  typeNormalSize48StateDeHeight: PropTypes.any,
   typeNormalSize48StateDeTop: PropTypes.any,
   typeNormalSize48StateDeRight: PropTypes.any,
-  typeNormalSize48StateDeBottom: PropTypes.any,
   typeNormalSize48StateDeLeft: PropTypes.any,
   typeNormalSize48StateDeBackgroundColor: PropTypes.any,
 };

@@ -1,37 +1,48 @@
+import TablaIcon from "../components/TablaIcon";
+
 const Desktop5 = () => {
   return (
-    <div className="w-full relative h-[62.125rem] overflow-hidden bg-[url('/public/desktop--5@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-[2rem] text-saddlebrown-900 font-kaisei-harunoumi">
+    <div className="w-full relative h-[64rem] overflow-hidden bg-[url('/public/desktop--4@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-[2rem] text-saddlebrown-900 font-kaisei-harunoumi">
       <img
-        className="absolute h-[26.81%] w-[26.25%] top-[-0.88%] right-[73.75%] bottom-[74.06%] left-[0%] max-w-full overflow-hidden max-h-full opacity-[0.6]"
+        className="absolute top-[-8.625rem] left-[63.125rem] w-[29.594rem] h-[23.188rem] overflow-hidden object-contain opacity-[0.2]"
         alt=""
-        src="/data-transfer.svg"
+        src="/sitar2@2x.png"
       />
-      <div className="absolute h-[11.57%] top-[5.13%] left-[calc(50%_-_218px)] text-[5.313rem] font-lobster-two text-base-50 inline-block w-[27.25rem]">
-        Our Team
+      <TablaIcon
+        tabla="/tabla3.svg"
+        propTop="47.125rem"
+        propLeft="calc(50% + 551px)"
+        propWidth="9.375rem"
+        propHeight="11.5rem"
+        propOpacity="0.7"
+      />
+      <TablaIcon
+        tabla="/tabla4.svg"
+        propTop="52.25rem"
+        propLeft="77.25rem"
+        propWidth="4.375rem"
+        propHeight="5.688rem"
+        propOpacity="unset"
+      />
+      <div className="absolute h-[36.23%] w-[29.44%] top-[5.37%] right-[4.86%] bottom-[58.4%] left-[65.69%] bg-gainsboro" />
+      <div className="absolute h-[37.01%] w-[29.58%] top-[52.15%] right-[64.38%] bottom-[10.84%] left-[6.04%] bg-gainsboro" />
+      <div className="absolute top-[6.5rem] left-[1.875rem] inline-block w-[57.25rem] h-[20.125rem]">
+        <p className="m-0">Michael Brown</p>
+        <ul className="m-0 font-inherit text-inherit pl-[1.343rem]">
+          <li>Head of Marketing</li>
+          <li>
+            Michael Brown crafts compelling campaigns that resonate with our
+            audience, leveraging his expertise in digital marketing.
+          </li>
+        </ul>
       </div>
-      <img
-        className="absolute h-[10.06%] w-[6.94%] top-[18.91%] right-[53.89%] bottom-[71.03%] left-[39.17%] max-w-full overflow-hidden max-h-full"
-        alt=""
-      />
-      <div className="absolute h-[38.33%] w-[32.78%] top-[15.09%] right-[4.1%] bottom-[46.58%] left-[63.13%] bg-gainsboro" />
-      <div className="absolute h-[35.41%] w-[29.93%] top-[53.42%] right-[67.57%] bottom-[11.17%] left-[2.5%] bg-gainsboro" />
-      <div className="absolute top-[13.063rem] left-[2.25rem] inline-block w-[52.813rem] h-[20.125rem]">
-        <p className="m-0 whitespace-pre-wrap"> John Doe</p>
+      <div className="absolute top-[34.938rem] left-[35.813rem] inline-block w-[50.313rem] h-[23rem]">
+        <p className="m-0">John Doe</p>
         <ul className="m-0 font-inherit text-inherit pl-[1.343rem]">
           <li>CEO</li>
           <li>
             John Doe leads our strategic initiatives with over 15 years of
             experience in business management and innovation.
-          </li>
-        </ul>
-      </div>
-      <div className="absolute top-[36.125rem] left-[32.688rem] inline-block w-[55.875rem] h-[20.75rem]">
-        <p className="m-0">Jane Smith</p>
-        <ul className="m-0 font-inherit text-inherit pl-[1.343rem]">
-          <li>Chief Operating Officer</li>
-          <li>
-            Jane Smith oversees daily operations, ensuring seamless execution of
-            our projects and client satisfaction.
           </li>
         </ul>
       </div>

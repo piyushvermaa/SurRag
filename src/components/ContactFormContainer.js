@@ -5,15 +5,15 @@ const ContactFormContainer = ({ className = "" }) => {
     <div
       className={`absolute top-[16.438rem] left-[14.438rem] w-[24.875rem] h-[27.125rem] text-left text-[1.25rem] text-gray1-200 font-space-grotesk ${className}`}
     >
-      <div className="absolute top-[8.938rem] left-[-0.312rem] shadow-[0px_0px_4px_rgba(0,_0,_0,_0.25),_0px_-1px_4px_rgba(0,_0,_0,_0.25)_inset] w-[34.5rem] h-[5.813rem]">
-        <div className="absolute top-[0rem] left-[0rem] rounded-lg bg-whitesmoke w-[34.5rem] h-[5.813rem]" />
-        <div className="absolute top-[1.806rem] left-[1.544rem] inline-block w-[9.613rem] h-[2.006rem]">
+      <div className="absolute top-[8.938rem] left-[-0.312rem] shadow-[0px_0px_4px_rgba(0,_0,_0,_0.25),_0px_-1px_4px_rgba(0,_0,_0,_0.25)_inset] w-[34.5rem] h-[5rem]">
+        <div className="absolute top-[0rem] left-[0rem] rounded-lg bg-whitesmoke w-[34.5rem] h-[5rem]" />
+        <div className="absolute top-[1.55rem] left-[1.544rem] inline-block w-[9.613rem] h-[1.725rem]">
           Your name
         </div>
       </div>
-      <div className="absolute top-[17.738rem] left-[-0.312rem] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.16),_0px_2px_4px_rgba(0,_0,_0,_0.25)_inset] w-[34.5rem] h-[3.75rem]">
-        <div className="absolute top-[0rem] left-[0rem] rounded-lg bg-whitesmoke w-[34.5rem] h-[3.75rem]" />
-        <div className="absolute top-[1.163rem] left-[1.544rem] inline-block w-[13.388rem] h-[1.294rem]">
+      <div className="absolute top-[16.25rem] left-[-0.312rem] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.16),_0px_2px_4px_rgba(0,_0,_0,_0.25)_inset] w-[34.5rem] h-[5rem]">
+        <div className="absolute top-[0rem] left-[0rem] rounded-lg bg-whitesmoke w-[34.5rem] h-[5rem]" />
+        <div className="absolute top-[1.55rem] left-[1.544rem] inline-block w-[13.388rem] h-[1.725rem]">
           Phone Number
         </div>
       </div>

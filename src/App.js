@@ -35,10 +35,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/desktop-5":
-        title = "";
-        metaDescription = "";
-        break;
       case "/desktop-6":
         title = "";
         metaDescription = "";
@@ -67,6 +63,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/desktop-14":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -86,6 +86,7 @@ function App() {
   return (
     <>
     <Desktop/>
+    <Desktop8/>
     <Desktop1/>
     <Desktop2/>
     <Desktop3/>
@@ -93,8 +94,7 @@ function App() {
     <Desktop5/>
     <Desktop6/>
     <Desktop7/>
-    <Desktop8/>
-    
+
     </>
   );
 }

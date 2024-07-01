@@ -1,9 +1,9 @@
-<svg width="1170" height="754" viewBox="0 0 1170 754" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1170" height="753" viewBox="0 0 1170 753" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g style="mix-blend-mode:soft-light" filter="url(#filter0_dddi_278_1015)">
-<path d="M4.00015 50.6572C4.00015 23.043 26.3859 0.657228 54.0001 0.657228L1116 0.657228C1143.61 0.657228 1166 23.043 1166 50.6572V695.081C1166 722.695 1143.61 745.081 1116 745.081H54.0001C26.3859 745.081 4.00015 722.695 4.00015 695.081L4.00015 50.6572Z" fill="url(#paint0_radial_278_1015)" style="mix-blend-mode:exclusion" shape-rendering="crispEdges"/>
+<path d="M4.00015 50C4.00015 22.3857 26.3859 1.02284e-06 54.0001 1.02284e-06L1116 1.02284e-06C1143.61 1.02284e-06 1166 22.3858 1166 50V694.423C1166 722.038 1143.61 744.423 1116 744.423H54.0001C26.3859 744.423 4.00015 722.038 4.00015 694.423L4.00015 50Z" fill="url(#paint0_radial_278_1015)" style="mix-blend-mode:exclusion" shape-rendering="crispEdges"/>
 </g>
 <defs>
-<filter id="filter0_dddi_278_1015" x="0.000244141" y="0.657227" width="1170" height="752.423" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_dddi_278_1015" x="0.000244141" y="0" width="1170" height="752.423" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
@@ -31,7 +31,7 @@
 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.57 0"/>
 <feBlend mode="overlay" in2="shape" result="effect4_innerShadow_278_1015"/>
 </filter>
-<radialGradient id="paint0_radial_278_1015" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(585.046 744.996) rotate(-90) scale(574.277 896.328)">
+<radialGradient id="paint0_radial_278_1015" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(585.046 744.338) rotate(-90) scale(574.277 896.328)">
 <stop offset="0.0776872" stop-color="#644117"/>
 <stop offset="0.728018" stop-color="#FFB203"/>
 <stop offset="1" stop-color="#FFEBB9"/>

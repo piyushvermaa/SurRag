@@ -1,199 +1,59 @@
-import TablaIcon from "../components/TablaIcon";
-
 const Desktop2 = () => {
   return (
-    <div className="w-full relative h-[65.5rem] overflow-hidden bg-[url('/public/desktop--6@3x.png')] bg-cover bg-no-repeat bg-[top] text-right text-[1.125rem] text-saddlebrown-200 font-kaisei-harunoumi">
-      <TablaIcon tabla="/tabla1.svg" />
-      <TablaIcon
-        tabla="/tabla2.svg"
-        propTop="5.625rem"
-        propLeft="40.5rem"
-        propWidth="3.375rem"
-        propHeight="4rem"
-        propOpacity="unset"
+    <div className="w-full relative h-[62.125rem] overflow-hidden bg-[url('/public/desktop--7@3x.png')] bg-cover bg-no-repeat bg-[top] text-left text-[1.25rem] text-gray1-300 font-lobster-two">
+      <img
+        className="absolute top-[17.438rem] left-[2.313rem] w-[19.125rem] h-[34.25rem] object-contain"
+        alt=""
+        src="/vector-31.svg"
       />
-      <div className="absolute top-[3.063rem] left-[2.125rem] inline-block w-[37.188rem] h-[11.938rem] [mix-blend-mode:linear-burn] text-saddlebrown-400">
-        <p className="m-0">
-          <span>
-            <span className="text-black">{`Rhythmic Mastery: `}</span>
-            <span>
-              Learn intricate rhythms and patterns (bols) that form the backbone
-              of Indian classical music.
-            </span>
-          </span>
-        </p>
-        <p className="m-0">
-          <span className="font-medium font-kaisei-harunoumi text-black">{`Expressive Techniques: `}</span>
-          <span>
-            Develop hand coordination and dexterity through expressive
-            techniques like fast rolls (tirkit), edge strokes (kinar), and
-            resonant bass tones (bayan).
-          </span>
-        </p>
-        <p className="m-0">
-          <span className="font-medium font-kaisei-harunoumi text-black">
-            Cultural Richness:
-          </span>
-          <span>
-            {" "}
-            Explore the cultural heritage of tabla, its role in classical and
-            contemporary music, and its adaptability in various musical genres.
-          </span>
-        </p>
+      <div className="absolute top-[36.063rem] left-[3.063rem] text-saddlebrown-700 inline-block w-[17.063rem] h-[2.938rem]">
+        Tabla Tunes: Mastering the Rhythms
+      </div>
+      <div className="absolute top-[4.313rem] left-[calc(50%_-_214px)] text-[5.313rem] text-base-50 inline-block w-[26.813rem] h-[6.75rem]">
+        Our courses
       </div>
       <img
-        className="absolute top-[15.125rem] left-[40.5rem] w-[7.125rem] h-[6.875rem] overflow-hidden"
+        className="absolute top-[17.938rem] left-[24rem] w-[19.125rem] h-[33.75rem] object-contain"
         alt=""
-        src="/sitar.svg"
-      />
-      <div className="absolute top-[15.125rem] left-[49.813rem] text-left inline-block w-[38rem] h-[10rem] [mix-blend-mode:linear-burn]">
-        <p className="m-0">
-          <span className="font-medium font-kaisei-harunoumi">
-            <span className="text-black">Melodic Beauty:</span>
-          </span>
-          <span>
-            <span className="font-medium font-kaisei-harunoumi">{` `}</span>
-            <span>
-              Discover the art of meend (slides) and intricate gatkari (fast
-              patterns) to create mesmerizing melodies.
-            </span>
-          </span>
-        </p>
-        <p className="m-0">
-          <span className="font-medium font-kaisei-harunoumi text-black">
-            Raga Exploration:
-          </span>
-          <span>
-            {" "}
-            Dive into the world of ragas, learning how to express emotions and
-            moods through classical compositions and improvisations.
-          </span>
-        </p>
-        <p className="m-0">
-          <span className="font-medium font-kaisei-harunoumi text-black">{`Historical Significance: `}</span>
-          <span>
-            Understand the historical evolution of sitar, its gharana styles,
-            and its influence on global music traditions.
-          </span>
-        </p>
-      </div>
-      <img
-        className="absolute top-[27.5rem] left-[37.063rem] w-[12.375rem] h-[6.188rem] overflow-hidden object-contain"
-        alt=""
-        src="/accordian@2x.png"
+        src="/vector-32.svg"
       />
       <img
-        className="absolute top-[36.875rem] left-[40.375rem] w-[8.125rem] h-[8rem] overflow-hidden"
+        className="absolute top-[17.438rem] left-[45.875rem] w-[19.125rem] h-[34.25rem] object-contain"
         alt=""
-        src="/guitar.svg"
+        src="/vector-31.svg"
       />
       <img
-        className="absolute top-[49.688rem] left-[38.688rem] w-[10.938rem] h-[8.75rem] overflow-hidden"
+        className="absolute top-[17.438rem] left-[68.25rem] w-[19.125rem] h-[34.25rem] object-contain"
         alt=""
-        src="/piano.svg"
+        src="/vector-31.svg"
       />
-      <div className="absolute top-[35.25rem] left-[49.813rem] text-left inline-block w-[38rem] h-[16rem] [mix-blend-mode:linear-burn]">
-        <p className="m-0">
-          <span className="font-medium font-kaisei-harunoumi text-black">
-            Versatility Across Genres:
-          </span>
-          <span>
-            {" "}
-            Explore classical, jazz, blues, rock, and fusion styles, mastering
-            techniques such as fingerstyle, strumming, and solo improvisation.
-          </span>
-        </p>
-        <p className="m-0">
-          <span className="font-medium font-kaisei-harunoumi text-black">
-            Creative Expression
-          </span>
-          <span>
-            : Develop skills in composing music, arranging pieces, and
-            interpreting diverse musical genres on this universally beloved
-            instrument.
-          </span>
-        </p>
-        <p className="m-0">
-          <span className="font-medium font-kaisei-harunoumi text-black">
-            Global Appeal:
-          </span>
-          <span>
-            {" "}
-            Understand the guitar's historical journey and its impact on modern
-            music, appealing to students interested in global musical traditions
-          </span>
-        </p>
+      <div className="absolute top-[36.063rem] left-[25.25rem] text-saddlebrown-800 text-center inline-block w-[16.125rem] h-[4.688rem]">
+        Vocal Velocity: Journey to Vocal Excellence
       </div>
-      <div className="absolute top-[47.813rem] left-[2.813rem] inline-block w-[35.063rem] h-[14.625rem] [mix-blend-mode:linear-burn]">
-        <p className="m-0">
-          <span className="font-medium font-kaisei-harunoumi text-black">
-            Technical Foundation
-          </span>
-          <span>
-            : Build a solid foundation in piano technique, including touch
-            sensitivity, dynamics, and fingering for scales and arpeggios.
-          </span>
-        </p>
-        <p className="m-0">
-          <span className="font-medium font-kaisei-harunoumi text-black">{`Wide Repertoire: `}</span>
-          <span>
-            Explore classical masterpieces from different eras, develop jazz
-            improvisation skills, and interpret contemporary compositions with
-            artistic flair.
-          </span>
-        </p>
-        <p className="m-0">
-          <span className="font-medium font-kaisei-harunoumi text-black">{`Cultural Integration: `}</span>
-          <span>
-            Appreciate the piano's influence across Western classical music,
-            jazz, pop, and its growing presence in global music landscapes.
-          </span>
-        </p>
+      <div className="absolute top-[36.313rem] left-[48.063rem] text-saddlebrown-500 text-center inline-block w-[15.25rem] h-[3.875rem]">
+        Melodies of Sitar
       </div>
-      <div className="absolute top-[24.75rem] left-[1.063rem] inline-block w-[37.5rem] h-[16.063rem] [mix-blend-mode:linear-burn]">
-        <p className="m-0">
-          <span className="font-medium font-kaisei-harunoumi text-black">
-            Versatile Accompaniment:
-          </span>
-          <span>
-            {" "}
-            Master keyboard and bellows techniques to accompany vocals and other
-            instruments in devotional and folk music styles.
-          </span>
-        </p>
-        <p className="m-0">
-          <span className="text-black">
-            <span className="font-medium font-kaisei-harunoumi">
-              Melodic Expression
-            </span>
-            <b className="font-kaisei-harunoumi">:</b>
-          </span>
-          <span>
-            <span>
-              {" "}
-              Learn swaralipi (melodic notation) and chording techniques to
-              create harmonious melodies and supportive harmonies
-            </span>
-            <span className="text-black">.</span>
-          </span>
-        </p>
-        <p className="m-0">
-          <span className="text-black">
-            <span className="font-medium font-kaisei-harunoumi">
-              Cultural Adaptation
-            </span>
-            <b className="font-kaisei-harunoumi">:</b>
-          </span>
-          <span>
-            <span className="text-black">{` `}</span>
-            <span>
-              Explore harmonium's journey from Western roots to its integration
-              into diverse Indian musical genres, fostering cultural
-              appreciation
-            </span>
-            <span className="text-black">.</span>
-          </span>
-        </p>
+      <div className="absolute top-[36.313rem] left-[71.313rem] text-saddlebrown-600 text-center inline-block w-[12.688rem] h-[3.125rem]">
+        Guitar Essentials
+      </div>
+      <div className="absolute top-[25rem] left-[3.938rem] bg-gainsboro w-[15.938rem] h-[10.188rem]" />
+      <div className="absolute top-[25rem] left-[25.188rem] bg-gainsboro w-[17rem] h-[10rem]" />
+      <div className="absolute top-[25rem] left-[47.375rem] bg-gainsboro w-[16.063rem] h-[10.313rem]" />
+      <div className="absolute top-[25rem] left-[70.375rem] bg-gainsboro w-[15.375rem] h-[10.313rem]" />
+      <div className="absolute top-[42.875rem] left-[5.938rem] shadow-[0px_4px_4px_rgba(0,_0,_0,_0),_0px_4px_4px_rgba(0,_0,_0,_0.25),_0px_0px_6px_rgba(255,_255,_255,_0.25)_inset] rounded-lg bg-saddlebrown-100 w-[11.875rem] h-[3.438rem] overflow-hidden flex flex-row items-center justify-center py-[0.375rem] px-[1.5rem] box-border mix-blend-hard-light font-space-grotesk">
+        <div className="relative font-medium">enroll</div>
+      </div>
+      <div className="absolute top-[42.875rem] left-[26.875rem] shadow-[0px_4px_4px_rgba(0,_0,_0,_0),_0px_4px_4px_rgba(0,_0,_0,_0.25),_0px_0px_6px_rgba(255,_255,_255,_0.25)_inset] rounded-lg bg-saddlebrown-100 w-[11.875rem] h-[3.438rem] overflow-hidden flex flex-row items-center justify-center py-[0.375rem] px-[1.5rem] box-border mix-blend-hard-light font-space-grotesk">
+        <div className="relative font-medium">enroll</div>
+      </div>
+      <div className="absolute top-[42.875rem] left-[49.063rem] shadow-[0px_4px_4px_rgba(0,_0,_0,_0),_0px_4px_4px_rgba(0,_0,_0,_0.25),_0px_0px_6px_rgba(255,_255,_255,_0.25)_inset] rounded-lg bg-saddlebrown-100 w-[11.875rem] h-[3.438rem] overflow-hidden flex flex-row items-center justify-center py-[0.375rem] px-[1.5rem] box-border mix-blend-hard-light font-space-grotesk">
+        <div className="relative font-medium">enroll</div>
+      </div>
+      <div className="absolute top-[42.875rem] left-[72.125rem] shadow-[0px_4px_4px_rgba(0,_0,_0,_0),_0px_4px_4px_rgba(0,_0,_0,_0.25),_0px_0px_6px_rgba(255,_255,_255,_0.25)_inset] rounded-lg bg-saddlebrown-100 w-[11.875rem] h-[3.438rem] overflow-hidden flex flex-row items-center justify-center py-[0.375rem] px-[1.5rem] box-border mix-blend-hard-light font-space-grotesk">
+        <div className="relative font-medium">enroll</div>
+      </div>
+      <div className="absolute top-[39.75rem] left-[8.125rem] font-kaisei-harunoumi text-saddlebrown-900 inline-block w-[7.125rem] h-[2.188rem]">
+        Rs-.....
       </div>
     </div>
   );
